@@ -20,9 +20,9 @@ screen = pygame.display.set_mode((800,800))
 icon = pygame.image.load('images/icon.png')
 pygame.display.set_caption("Collision(Sasta)")
 pygame.display.set_icon(icon)
-BACK = pygame.transform.scale(pygame.image.load("images/ndark.jpg"),(800,800))
-BALL1 = pygame.transform.scale(pygame.image.load("images/selected30.png"),(50,50))
-BALL2 = pygame.transform.scale(pygame.image.load("images/selected31.png"),(50,50))
+BACK = pygame.transform.scale(pygame.image.load("ndark.jpg"),(800,800))
+BALL1 = pygame.transform.scale(pygame.image.load("selected30.png"),(50,50))
+BALL2 = pygame.transform.scale(pygame.image.load("selected31.png"),(50,50))
 def ball1(x : float , y : float):
     global bpos1,center1
     bpos1 = (bpos1[0]+x,bpos1[1]+y)
