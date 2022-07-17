@@ -17,8 +17,7 @@ center1 = 0      #Center of Blue Ball
 center2 = 0      #Center of Green Ball
 pygame.init()
 screen = pygame.display.set_mode((800,800))
-icon = pygame.image.load('images/icon.png')
-pygame.display.set_caption("Collision(Sasta)")
+pygame.display.set_caption("Collision")
 pygame.display.set_icon(icon)
 BACK = pygame.transform.scale(pygame.image.load("ndark.jpg"),(800,800))
 BALL1 = pygame.transform.scale(pygame.image.load("selected30.png"),(50,50))
